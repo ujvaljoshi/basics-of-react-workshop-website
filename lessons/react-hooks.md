@@ -7,7 +7,7 @@ order: "8C"
 icon: "book"
 ---
 
-Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class. You can learn more about hooks [here][hooks]
 
 Before understanding hooks lets do a example where we are using `state` in class components. Then we will convert class component into function component.
 
@@ -174,3 +174,5 @@ Next step would be to add eventhandler for buttons into `Match` component.
 ```
 
 Lets check if its working or not using console in `App` component.
+
+[hooks]: https://reactjs.org/docs/hooks-overview.html
