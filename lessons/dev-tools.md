@@ -3,7 +3,7 @@ path: "/dev-tools"
 title: "React Devtools"
 section: "Components, Hooks & Effects"
 description: "The second page"
-order: "9A"
+order: "10C"
 icon: "book"
 ---
 

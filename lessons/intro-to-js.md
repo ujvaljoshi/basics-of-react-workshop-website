@@ -16,20 +16,20 @@ Generally we use `var` keyword to define variables in javascript. But with ES6 t
 In many ways `let` is like a cousin of `var`. It has a lot of similarities but differentiates in ways that makes ES6 a more modern-feeling language. Using `let` you can reassign variables, but its syntax is more strict than `var`.
 
 ```js
-let myName = "Ujval";
-console.log(myName);
+let companyName = "Grand Parade";
+console.log(companyName);
 
-myName = "Joshi";
-console.log(myName);
+companyName = "William Hill";
+console.log(companyName);
 ```
 
 The keyword `const` is an abbreviation for `constant`. Similar to `let`, it’s block-scoped, however, you can’t reassigned it.
 
 ```js
-const myName = "Ujval";
-console.log(myName);
+const companyName = "Grand Parade";
+console.log(companyName);
 
-myName = "Joshi"; // It will throw error
+companyName = "William Hill"; // It will throw error
 ```
 
 | Keyword | Function vs Block-scope | Redefinable |

@@ -3,7 +3,7 @@ path: "/class-components"
 title: "Class Components"
 section: "Components, Hooks & Effects"
 description: "The second page"
-order: "6A"
+order: "7C"
 icon: "book"
 ---
 
@@ -89,5 +89,3 @@ Now for `Match` component, we would need those odds values as button so we can c
   <button className="loss">{props.loss}</button>
 </div>
 ```
-
-## 🌳 `d7787a0733b808f08b0f0c98cfb017a743a3895b`

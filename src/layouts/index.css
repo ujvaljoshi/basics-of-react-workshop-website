@@ -7,10 +7,6 @@ body {
   background-size: 16px 16px;
 }
 
-a {
-  /* color: var(--text-links); */
-}
-
 .navbar {
   border-bottom: 1px solid #ccc;
   position: fixed;

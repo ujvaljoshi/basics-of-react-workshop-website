@@ -9,7 +9,7 @@ icon: "book"
 
 Let's start by writing pure React. No compile step. No JSX. No Babel. No Webpack or Parcel. Just some JavaScript on a page.
 
-Let's start your project. Create your project directory. I'm going to call mine `Betting App` since we're going to be building a betting app throughout this course. Create an index.html and put it into a `src/` directory inside of your project folder. In index.html put:
+Let's start your project. Create your project directory. I'm going to call mine `Betting App` since we're going to be building a betting app throughout this course. Create an `index.html` and put it into a `src/` directory inside of your project folder. In `index.html` put:
 
 ```html
 <!DOCTYPE html>
@@ -41,7 +41,6 @@ Let's start your project. Create your project directory. I'm going to call mine 
 
 Now open this file in your browser. On Mac, hit ⌘ (command) + O in your favorite browser, and on Windows and Linux hit CTRL + O to open the Open prompt. Navigate to wherever you saved the file and open it. You should see a line of text saying "not rendered".
 
-- Pretty standard HTML5 document. If this is confusing, I teach another course called [Intro to Web Dev][webdev] that can help you out.
 - We're adding a root div. We'll render our React app here in a sec. It doesn't _have_ to be called root, just a common practice.
 - We have two script tags.
   - The first is the React library. This library is the interface of how to interact with React; all the methods (except one) will be via this library. It contains no way of rendering itself though; it's just the API.
@@ -151,5 +150,3 @@ const App = () => {
   ]);
 };
 ```
-
-## 🌳 `0b9ec26df2c79ae99ed1502902bc49cdc905ddc2`

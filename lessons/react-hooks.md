@@ -3,7 +3,7 @@ path: "/hooks"
 title: "React Hooks"
 section: "Components, Hooks & Effects"
 description: "The second page"
-order: "7A"
+order: "8C"
 icon: "book"
 ---
 
@@ -174,5 +174,3 @@ Next step would be to add eventhandler for buttons into `Match` component.
 ```
 
 Lets check if its working or not using console in `App` component.
-
-## 🌳 `95da20aa0e8793115e3650116a78a12913b092b7`

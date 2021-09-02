@@ -3,7 +3,7 @@ path: "/parcel"
 title: "Parcel"
 section: "React Setup & JSX"
 description: "The second page"
-order: "4A"
+order: "4B"
 icon: "book"
 ---
 
@@ -13,7 +13,7 @@ That being said, Parcel is an amazing tool with zero-config. It works with every
 
 Parcel is going to accept an entry point, crawl through all of its dependencies, and output a single, complete file with all of our code in it. This means we can have large applications with many files and many dependencies. It would be an unmanageable mess. Already our React app has two components in one file: App and Match. It'd be better if these were in separate files so it'd be easier to keep track of what was where. This is where Parcel can help us.
 
-Install Parcel by doing `npm install -D parcel-bundler`.
+Install Parcel by doing `npm install -D parcel`.
 
 Now inside of your `package.json` put:
 
@@ -78,5 +78,3 @@ Load the page again. Still works! Now we can separate components into separate f
 [browserify]: http://browserify.org/
 [webpack]: https://webpack.js.org/
 [parcel]: https://parceljs.org/
-
-## 🌳 `1bd221d1910cbca87eb709acd432f8151648b0a5`

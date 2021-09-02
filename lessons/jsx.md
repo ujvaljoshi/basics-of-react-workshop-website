@@ -3,7 +3,7 @@ path: "/jsx"
 title: "JSX"
 section: "React Setup & JSX"
 description: "The second page"
-order: "5A"
+order: "6B"
 icon: "book"
 ---
 
@@ -121,7 +121,7 @@ Update your .eslintrc.json to:
   },
   "plugins": ["react", "import", "jsx-a11y"],
   "parserOptions": {
-    "ecmaVersion": 2018,
+    "ecmaVersion": 2021,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
@@ -150,8 +150,4 @@ This particular configuration has a lot of rules to help you quickly catch commo
 - babel-lint allows ESLint to use the same transpiling library, Babel, that Parcel uses under the hood. Without it, ESLint can't understand JSX.
 - `eslint-plugin-react` now requires you to inform of it what version of React you're using. We're telling it here to look at the package.json to figure it out.
 
-&nbsp;
 
-&nbsp;
-
-## 🌳 `6446b0693ad01dc3ac4cb8dfb766af6b0992a67d`

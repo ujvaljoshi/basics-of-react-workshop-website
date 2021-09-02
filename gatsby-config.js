@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "React Beginner Course",
+    title: "Basics of React",
     subtitle: "",
     author: "",
     authorSubtitle: "",
