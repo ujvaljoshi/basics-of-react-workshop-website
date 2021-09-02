@@ -46,7 +46,7 @@ Now open this file in your browser. On Mac, hit ⌘ (command) + O in your favori
   - The first is the React library. This library is the interface of how to interact with React; all the methods (except one) will be via this library. It contains no way of rendering itself though; it's just the API.
   - The second library is the rendering layer. Since we're rendering to the browser, we're using React DOM. There are other React libraries like React Native, React 360 (formerly React VR), A-Frame React, React Blessed, and others. You need both script tags. The order is not important.
 - The last script tag is where we're going to put our code. You don't typically do this but I wanted to start as simple as possible. This script tag must come _after_ the other two.
-- You'll need to grab the CSS file (I wrote it so you don't have to.) [Download it here][style] and put it in your src directory.
+- You'll need to grab the CSS file (I wrote it so you don't have to.) [Download it here][css] and put it in your src directory.
 
 In the last script tag, put the following.
 
@@ -150,3 +150,5 @@ const App = () => {
   ]);
 };
 ```
+
+[css]: https://raw.githubusercontent.com/ujvaljoshi/basics-of-react-workshop-app/main/src/style.css

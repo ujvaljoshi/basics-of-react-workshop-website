@@ -133,4 +133,3 @@ coverage/
 [eslint]: https://eslint.org
 [jshint]: http://jshint.com/
 
-## 🌳 `f2fc188ba2d917b7e7d03e48c3cf777f2e15ffb4`

@@ -16,9 +16,9 @@ import matches from "./../matches.json";
 
 class MatchList extends React.Component {
   render() {
-    const matchList = matches.data.map((match, id) => {
+    const matchList = matches.data.map((match) => {
       return (
-        <li key={id}>
+        <li key={match.id}>
           <Match
             time={match.time}
             home={match.home}
